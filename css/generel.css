@@ -114,3 +114,7 @@ footer li {
   width: 25%;
   height: 25%;
 }
+
+.logo {
+  max-width: 8rem;
+}
