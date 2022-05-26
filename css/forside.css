@@ -88,6 +88,10 @@ h6 {
     margin-bottom: 4rem;
   }
 }
+.billeder_populære {
+  background-color: #2f3c7e;
+  padding: 2rem;
+}
 
 .grid_trekant {
   display: grid;
