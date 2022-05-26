@@ -15,7 +15,7 @@ body {
   flex-wrap: wrap;
 }
 
-.main-menu ul {
+.menu ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -75,4 +75,17 @@ a {
 
 a:hover {
   color: orange;
+}
+
+img video {
+  max-width: 100%;
+}
+
+h6 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
 }
