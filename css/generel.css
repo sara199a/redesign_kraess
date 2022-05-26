@@ -99,10 +99,14 @@ footer {
   text-decoration: none;
   list-style: none;
   text-align: center;
+  background-color: rgb(179, 179, 179);
+  padding: 2rem;
 }
 
 footer li {
   list-style: none;
+  line-height: 1.1rem;
+  margin-top: 10px;
 }
 
 .footer_logo {
