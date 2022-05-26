@@ -8,7 +8,7 @@
 }
 
 .tekst_omos1 {
-  padding: 2rem;
+  padding-inline: 2rem;
 }
 
 /*KODE TIL OM OS ANDEN SEKTION*/
@@ -24,5 +24,22 @@
 }
 
 .tekst_omos2 {
+  padding-inline: 2rem;
+}
+
+.omos_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline: 12rem;
+}
+
+.maps_info {
+  background-color: white;
   padding: 2rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.open {
+  margin-top: 2rem;
 }
