@@ -1,3 +1,5 @@
+/*KODE TIL USP-DEL*/
+
 h6 {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
@@ -11,9 +13,6 @@ h6 {
   }
 }
 
-.container_usp {
-  background-color: aqua;
-}
 .unika {
   padding: 1.5rem;
   text-align: center;
@@ -32,4 +31,16 @@ h6 {
 .billedvaeg {
   padding: 1.5rem;
   text-align: center;
+}
+
+/*KODE TIL KARRUSELDELEN*/
+.container_karrusel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.fine_finurligheder {
+  text-align: center;
+  background-color: rgb(216, 146, 120);
+  padding: 2rem;
 }
