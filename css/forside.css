@@ -34,13 +34,51 @@ h6 {
 }
 
 /*KODE TIL KARRUSELDELEN*/
-.container_karrusel {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+@media (min-width: 700px) {
+  .container_karrusel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .fine_finurligheder {
   text-align: center;
   background-color: rgb(216, 146, 120);
   padding: 2rem;
+}
+
+/*KODE TIL OM KRÆS*/
+@media (min-width: 700px) {
+  .forside_omos {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+.forside_omos {
+  padding: 2rem;
+  gap: 10px;
+}
+
+.tekst_omos {
+  margin-bottom: 1.5rem;
+}
+
+/*KODE TIL POPULÆREPRODUKTER*/
+.h1_center {
+  text-align: center;
+  padding-bottom: 1.2rem;
+}
+
+@media (min-width: 700px) {
+  .billeder_populære {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .h1_center {
+    padding-bottom: 2rem;
+  }
 }
