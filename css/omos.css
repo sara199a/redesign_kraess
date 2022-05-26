@@ -1,1 +1,28 @@
+/*KODE TIL OM OS FØRSTE SEKTION*/
+@media (min-width: 700px) {
+  .omos_1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: 2rem;
+  }
+}
 
+.tekst_omos1 {
+  padding: 2rem;
+}
+
+/*KODE TIL OM OS ANDEN SEKTION*/
+@media (min-width: 700px) {
+  .omos_2 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding: 2rem;
+  }
+  .tekst_omos2 {
+    order: 1;
+  }
+}
+
+.tekst_omos2 {
+  padding: 2rem;
+}
