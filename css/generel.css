@@ -7,6 +7,10 @@ body {
   background-color: #ffd5d0;
 }
 
+section {
+  padding: 2.5rem;
+}
+
 .banner {
   background: rgb(250, 124, 124);
   padding: 2rem;
@@ -79,11 +83,6 @@ a:hover {
 
 img video {
   max-width: 100%;
-}
-
-h6 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.2rem;
 }
 
 p {
