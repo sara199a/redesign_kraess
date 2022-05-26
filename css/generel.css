@@ -105,6 +105,8 @@ footer li {
   list-style: none;
 }
 
-footer h3 {
-  text-align: center;
+.footer_logo {
+  display: flex;
+  width: 25%;
+  height: 25%;
 }
