@@ -9,6 +9,7 @@ section {
 
 img {
   width: 100%;
+  height: auto;
 }
 
 body {
@@ -85,10 +86,21 @@ a:hover {
   color: orange;
 }
 
-img video {
+video {
   max-width: 100%;
 }
 
 p {
   font-family: "Quicksand", sans-serif;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-decoration: none;
+  list-style: none;
+}
+
+footer li {
+  list-style: none;
 }
