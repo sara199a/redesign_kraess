@@ -82,3 +82,17 @@ h6 {
     padding-bottom: 2rem;
   }
 }
+
+.grid_trekant {
+  display: grid;
+  align-self: stretch;
+  object-fit: cover;
+}
+.bord2 {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+}
+.lys {
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+}
