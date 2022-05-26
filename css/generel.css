@@ -17,7 +17,6 @@ body {
 }
 
 .banner {
-  background: rgb(250, 124, 124);
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -96,11 +95,16 @@ p {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   text-decoration: none;
   list-style: none;
+  text-align: center;
 }
 
 footer li {
   list-style: none;
+}
+
+footer h3 {
+  text-align: center;
 }
