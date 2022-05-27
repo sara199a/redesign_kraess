@@ -104,13 +104,16 @@ h6 {
   align-self: stretch;
   object-fit: cover;
 }
-.grid_trekant {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-  padding-left: 4rem;
-  padding-right: 4rem;
+
+@media (min-width: 800px) {
+  .grid_trekant {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 .bord2 {
