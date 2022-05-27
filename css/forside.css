@@ -93,6 +93,10 @@ h6 {
   padding: 2rem;
 }
 
+h6 {
+  color: #2f3c7e;
+}
+
 /* Grid forside trekant */
 
 .grid_trekant img {
@@ -139,11 +143,4 @@ h6 {
 .taeppe_vaeg {
   grid-column: 3 / 5;
   grid-row: 2 / 3;
-
-<<<<<<< HEAD
-
-=======
-h6 {
-  color: #2f3c7e;
->>>>>>> 97a4b2de0ba82b9807968da19921e6826693ce13
 }
