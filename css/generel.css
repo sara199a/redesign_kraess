@@ -27,7 +27,7 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   margin-top: 10px;
 
   /* 2. Få elementerne til at stå ved siden af hinanden */
@@ -99,8 +99,9 @@ footer {
   text-decoration: none;
   list-style: none;
   text-align: center;
-  background-color: rgb(179, 179, 179);
+  background-color: #2f3c7e;
   padding: 2rem;
+  color: #c1b2b3;
 }
 
 footer li {
@@ -121,8 +122,14 @@ footer li {
 }
 
 h2 {
-  text-align: center;
   color: #2f3c7e;
+  font-family: "Quicksand", sans-serif;
+}
+
+.h2_sort {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 h1 {
@@ -134,5 +141,15 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+button {
+  border: 0.07rem solid #2f3c7e;
+  width: 7.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: white;
+  color: #2f3c7e;
+  margin-top: 80px;
 }
