@@ -1,0 +1,17 @@
+.designere {
+  padding-inline: 4rem;
+  padding-block: 2rem;
+}
+
+.h1_left {
+  text-align: left;
+  text-decoration: overline;
+}
+
+.grid_designere {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
