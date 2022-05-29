@@ -149,3 +149,25 @@ h6 {
   grid-column: 3 / 5;
   grid-row: 2 / 3;
 }
+
+/* KODE TIL MENU OVEN PÅ VIDEO */
+.menu {
+  position: absolute;
+  top: 5%;
+  right: 35%;
+}
+
+.logo {
+  position: absolute;
+  margin: 5px;
+  place-items: center;
+  top: 1%;
+  left: 53%;
+}
+
+/*evt ændre skrift typen så man bedre kan se den */
+a {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px brown;
+}
