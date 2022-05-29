@@ -154,7 +154,7 @@ h6 {
 /* KODE TIL MENU OVEN PÅ VIDEO */
 .menu {
   position: absolute;
-  top: 5%;
+  top: 13%;
   right: 35%;
 }
 
@@ -163,7 +163,7 @@ h6 {
   margin: 5px;
   place-items: center;
   top: 1%;
-  left: 53%;
+  left: 42%;
 }
 
 /*evt ændre skrift typen så man bedre kan se den */
