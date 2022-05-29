@@ -3,7 +3,8 @@
   .produkt_1 {
     display: grid;
     grid-template-columns: 2fr 1.3fr;
-    padding: 6rem;
+    padding: 2rem;
+    padding-inline: 6rem;
     margin-bottom: 40px;
   }
 }
@@ -27,4 +28,35 @@
 
 .tekst_produkt2 {
   padding-inline: 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 60px;
+  gap: 10px;
+}
+
+.img_wrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img_wrapper > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+
+button2 {
+  border: 0.07rem solid #2f3c7e;
+  width: 10.5em;
+  padding-bottom: 0.2em;
+  padding-bottom: 0.2em;
+  background-color: white;
+  color: #2f3c7e;
+  margin-top: 80px;
 }
