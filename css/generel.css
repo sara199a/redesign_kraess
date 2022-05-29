@@ -3,21 +3,23 @@
   box-sizing: border-box;
 }
 
+/* MELLEMRUM FRA TOP OG BUND =BLOCK */
 section {
   padding-block: 2rem;
 }
 
+/* GENERELT FOR ALLE BILLDER */
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 body {
   background-color: #fbeaeb;
 }
 
+/* MENU */
 .banner {
-  padding: 2rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -91,8 +93,10 @@ video {
 
 p {
   font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
 }
 
+/* FOOTER */
 footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -117,6 +121,13 @@ footer li {
   height: 25%;
 }
 
+/* COPYRIGT CENTRERET */
+.footerp {
+  display: grid;
+  grid-column: span 4;
+  padding-block: 1.5rem;
+}
+
 .logo {
   max-width: 8rem;
 }
@@ -138,10 +149,6 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
   margin-bottom: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
 }
 
 button {

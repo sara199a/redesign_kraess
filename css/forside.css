@@ -6,6 +6,7 @@ h6 {
   font-weight: bolder;
 }
 
+/*  MOBILVERSION */
 @media (min-width: 700px) {
   .container_usp {
     display: grid;
@@ -13,7 +14,7 @@ h6 {
     gap: 10px;
   }
 }
-
+/* GRID TIL CONTAINER_USP */
 .unika {
   padding: 1.5rem;
   text-align: center;
@@ -148,4 +149,26 @@ h6 {
 .taeppe_vaeg {
   grid-column: 3 / 5;
   grid-row: 2 / 3;
+}
+
+/* KODE TIL MENU OVEN PÅ VIDEO */
+.menu {
+  position: absolute;
+  top: 5%;
+  right: 35%;
+}
+
+.logo {
+  position: absolute;
+  margin: 5px;
+  place-items: center;
+  top: 1%;
+  left: 53%;
+}
+
+/*evt ændre skrift typen så man bedre kan se den */
+a {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px brown;
 }
