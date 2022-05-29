@@ -6,6 +6,7 @@ h6 {
   font-weight: bolder;
 }
 
+/*  MOBILVERSION */
 @media (min-width: 700px) {
   .container_usp {
     display: grid;
@@ -13,7 +14,7 @@ h6 {
     gap: 10px;
   }
 }
-
+/* GRID TIL CONTAINER_USP */
 .unika {
   padding: 1.5rem;
   text-align: center;
