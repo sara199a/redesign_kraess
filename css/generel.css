@@ -11,12 +11,7 @@ section {
 /* GENERELT FOR ALLE BILLDER */
 img {
   width: 100%;
-  height: 100%;
-}
-
-/* MANGLER CSS TIL : iconer til forside */
-.unika {
-  max-width: 4px;
+  height: auto;
 }
 
 body {

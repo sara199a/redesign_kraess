@@ -172,3 +172,8 @@ a {
   font-weight: bolder;
   text-shadow: 1px 1px brown;
 }
+
+/* iconer til forside */
+.container_usp img {
+  width: 40px;
+}
