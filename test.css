@@ -1,0 +1,33 @@
+.menu {
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+}
+
+@media (max-width: 700px) {
+  .hide {
+    display: none;
+  }
+
+  .logo {
+    display: grid;
+    /* grid-template-columns: 1fr auto 1fr; */
+  }
+
+  .logo a {
+    grid-area: 1 /2;
+  }
+
+  .logo nav {
+    grid-area: 2 / 3 / span 1 / span 1;
+    place-self: end;
+  }
+}
+
+@media (min-width: 700px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

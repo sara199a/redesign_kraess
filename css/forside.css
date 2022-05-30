@@ -152,7 +152,7 @@ h6 {
 }
 
 /* KODE TIL MENU OVEN PÅ VIDEO */
-.menu {
+/* .menu {
   position: absolute;
   top: 13%;
   right: 35%;
@@ -171,6 +171,26 @@ a {
   color: white;
   font-weight: bolder;
   text-shadow: 1px 1px brown;
+}
+
+header .banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo a {
+  grid-area: 1 /2;
+}
+
+.logo nav {
+  grid-area: 2 / 3 / span 1 / span 1;
+  place-self: end;
+}
+
+video {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  object-fit: cover;
 }
 
 /* iconer til forside */
