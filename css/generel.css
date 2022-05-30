@@ -15,6 +15,9 @@ img {
 }
 
 /* MANGLER CSS TIL : iconer til forside */
+.unika {
+  max-width: 4px;
+}
 
 body {
   background-color: #fbeaeb;
