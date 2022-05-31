@@ -154,7 +154,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-button {
+.btn_findvej {
   border: 0.07rem solid #2f3c7e;
   width: 7.5em;
   padding-top: 0.5em;
