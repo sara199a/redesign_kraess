@@ -1,10 +1,9 @@
 /* header */
 .banner {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
-  gap: 60px;
+  gap: 80px;
   place-content: left;
-  background-color: #fafafa;
 
   /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
 }
@@ -14,20 +13,27 @@
   padding: 0;
   display: flex;
   gap: 10px;
-  margin-top: 10px;
 }
 
 .logo {
-  max-width: 120px;
+  max-width: 110px;
+  margin-left: 20px;
+}
+
+a {
+  font-size: 1.2rem;
+}
+
+.toggle-btn {
+  color: #2f3c7e;
+  margin-left: 130px;
 }
 
 .h1_left {
-  text-align: left;
-  margin-left: 118px;
+  text-align: center;
 }
 .h2_left {
-  text-align: left;
-  margin-left: 118px;
+  text-align: center;
 }
 
 /*.grid_designere {
@@ -44,8 +50,9 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 60px;
+    margin-top: 40px;
     padding-inline: 120px;
+    padding-bottom: 2rem;
   }
 
   .designere {
@@ -56,6 +63,11 @@
   .menu {
     padding-top: 2rem;
   }
+}
+
+.designere {
+  padding: 2rem;
+  margin-top: 20px;
 }
 
 .img_wrapper {
