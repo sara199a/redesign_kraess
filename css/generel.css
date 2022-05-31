@@ -21,11 +21,11 @@ body {
 }
 
 /* MENU */
-.banner {
+/* .banner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 
 .menu ul {
   list-style: none;
