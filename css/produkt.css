@@ -1,23 +1,79 @@
 /* 1. sektion */
-@media (min-width: 900px) {
-  .produkt_1 {
-    display: grid;
-    grid-template-columns: 2fr 1.3fr;
-    padding: 2rem;
-    padding-inline: 6rem;
-    margin-bottom: 40px;
+@media (min-width: 600px) {
+  img .produkt_1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar {
+    display: none;
   }
 }
+/* my rug og tekst */
+.produkt_1 {
+  display: grid;
+  grid-template-columns: 0.8fr 1.5fr 2fr;
+  padding: 1rem;
+  padding-inline: 6rem;
+  margin-bottom: 40px;
+  margin-top: 2rem;
+}
+/* produkt billeder */
+.sidebar {
+  display: grid;
+  grid-template-rows: repeat(3fr);
+  gap: 1.2rem;
+  padding-inline: 1.2rem;
+}
 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* rug info */
 .tekst_produkt1 {
-  padding: 4rem;
+  padding-inline: 6rem;
+  margin-top: 2rem;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+/* laeg i kurv */
+.button2 {
+  border: 0.07rem solid #2f3c7e;
+  width: 11.5em;
+  padding-bottom: 0.2em;
+  padding-bottom: 0.2em;
+  background-color: white;
+  color: #2f3c7e;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.sarah {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 1rem;
+  padding-inline: 6rem;
+  margin-bottom: 40px;
+  margin-top: 2rem;
+}
+
+/* .flere_produkter {
+} */
+
+.tekst_flere {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 /* 2. sektion */
 @media (min-width: 700px) {
   .produkt_2 {
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
+    grid-template-columns: 0.5fr 1fr 1fr;
     padding: 2rem;
     margin-bottom: 40px;
   }
@@ -26,15 +82,12 @@
   }
 }
 
-.tekst_produkt2 {
-  padding-inline: 4rem;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-top: 60px;
-  gap: 10px;
+  margin-top: 30px;
+  padding-inline: 6rem;
+  gap: 2rem;
 }
 
 .img_wrapper {
@@ -51,12 +104,7 @@
   object-position: center;
 }
 
-button2 {
-  border: 0.07rem solid #2f3c7e;
-  width: 10.5em;
-  padding-bottom: 0.2em;
-  padding-bottom: 0.2em;
-  background-color: white;
-  color: #2f3c7e;
-  margin-top: 80px;
+.img {
+  width: 100%;
+  height: auto;
 }
