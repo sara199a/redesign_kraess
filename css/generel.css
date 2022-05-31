@@ -3,10 +3,11 @@
   box-sizing: border-box;
 }
 
-/* MELLEMRUM FRA TOP OG BUND =BLOCK */
+/* MELLEMRUM FRA TOP OG BUND =BLOCK 
 section {
   padding-block: 2rem;
 }
+*/
 
 /* GENERELT FOR ALLE BILLDER */
 img {

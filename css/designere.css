@@ -1,12 +1,33 @@
-.designere {
-  padding-inline: 4rem;
-  padding-block: 2rem;
-  margin-top: 20px;
+/* header */
+.banner {
+  padding: 2rem;
+  display: flex;
+  gap: 60px;
+  place-content: left;
+  background-color: #fafafa;
+
+  /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.logo {
+  max-width: 120px;
 }
 
 .h1_left {
   text-align: left;
-  text-decoration: overline;
+  margin-left: 118px;
+}
+.h2_left {
+  text-align: left;
+  margin-left: 118px;
 }
 
 /*.grid_designere {
@@ -19,11 +40,22 @@
 
 /*HOVER EFFEKT*/
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-top: 60px;
-  padding-inline: 120px;
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 60px;
+    padding-inline: 120px;
+  }
+
+  .designere {
+    padding-inline: 4rem;
+    padding-block: 2rem;
+    margin-top: 20px;
+  }
+  .menu {
+    padding-top: 2rem;
+  }
 }
 
 .img_wrapper {
