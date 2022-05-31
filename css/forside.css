@@ -35,44 +35,35 @@ h6 {
   padding-block: 2rem;
 }
 
-/*KODE TIL KARRUSELDELEN*/
+/* TO BILLEDER MED KNAP*/
 @media (min-width: 700px) {
   .container_karrusel {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 4rem;
-    margin-inline: 4rem;
+    display: flex;
+    gap: 25px;
   }
   .tekst_finurligheder {
     margin-bottom: 20px;
     color: #fbeaeb;
   }
-  img .container_karrusel {
-    max-width: 80%;
+}
+
+/* OM KRÆS FORSIDE*/
+
+@media (min-width: 700px) {
+  .om_os_tekst {
+    display: flex;
+    max-width: 75ch;
+    text-align: center;
+    margin-inline: auto;
   }
-}
+  .forside_omos {
+    padding: 2rem;
+    gap: 10px;
+  }
 
-.fine_finurligheder {
-  text-align: center;
-  background-color: #2f3c7e;
-  padding: 2rem;
-  color: #fbeaeb;
-}
-
-/*KODE TIL OM KRÆS*/
-
-.forside_omos {
-  padding: 2rem;
-  gap: 10px;
-}
-
-.btn_laes_mere {
-  border: none;
-  place-items: center;
-}
-
-.tekst_omos {
-  margin-bottom: 1.5rem;
+  .btn_laes_mere {
+    border: none;
+  }
 }
 
 /*KODE TIL POPULÆREPRODUKTER*/
@@ -214,8 +205,7 @@ a {
     max-width: 10rem;
   }
 
-  /* SKRIFT MENU */
-  a {
+  SKRIFT MENU a {
     font-size: 20px;
     text-shadow: 1.5px 1.5px #ffe1e1;
   }
