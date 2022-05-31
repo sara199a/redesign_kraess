@@ -151,49 +151,54 @@ h6 {
   grid-row: 2 / 3;
 }
 
+/* SMÅ ICONER */
+.container_usp img {
+  width: 40px;
+}
+
 /* KODE TIL MENU OVEN PÅ VIDEO */
-/* .menu {
+
+.menu {
   position: absolute;
-  top: 13%;
-  right: 35%;
+  top: 22%;
+  right: 40%;
 }
 
 .logo {
   position: absolute;
-  margin: 5px;
   place-items: center;
-  top: 1%;
+  margin-block: 15px;
+  top: 3%;
   left: 42%;
 }
 
-/*evt ændre skrift typen så man bedre kan se den */
+/* SKRIFT MENU */
 a {
-  color: white;
+  color: #2f3c7e;
   font-weight: bolder;
-  text-shadow: 1px 1px brown;
+  text-shadow: 2px 2px #ffe1e1;
+  font-size: 25px;
 }
 
-header .banner {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+/* MENU MOBILVERSION */
+@media (max-width: 700px) {
+  .logo {
+    place-items: center;
+    top: 1%;
+    left: 42%;
+    max-width: 7rem;
+  }
+
+  /* SKRIFT MENU */
+  a {
+    font-size: 20px;
+    text-shadow: 1.5px 1.5px #ffe1e1;
+  }
+
+  .menu {
+    top: 12%;
+    right: 30%;
+  }
 }
 
-.logo a {
-  grid-area: 1 /2;
-}
-
-.logo nav {
-  grid-area: 2 / 3 / span 1 / span 1;
-  place-self: end;
-}
-
-video {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-  object-fit: cover;
-}
-
-/* iconer til forside */
-.container_usp img {
-  width: 40px;
-}
+/* BURGERMENU MOBILVERSION */
