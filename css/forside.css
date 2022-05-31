@@ -16,23 +16,23 @@ h6 {
 }
 /* GRID TIL CONTAINER_USP */
 .unika {
-  padding-top: 1.5rem;
   text-align: center;
+  padding-block: 2rem;
 }
 
 .designere {
-  padding: 1.5rem;
   text-align: center;
+  padding-block: 2rem;
 }
 
 .fri_fragt {
-  padding: 1.5rem;
   text-align: center;
+  padding-block: 2rem;
 }
 
 .billedvaeg {
-  padding: 1.5rem;
   text-align: center;
+  padding-block: 2rem;
 }
 
 /*KODE TIL KARRUSELDELEN*/
@@ -98,6 +98,7 @@ h6 {
 
 h6 {
   color: #2f3c7e;
+  padding-top: 5px;
 }
 
 /* Grid forside trekant */
