@@ -4,6 +4,7 @@
   display: flex;
   gap: 80px;
   place-content: left;
+  flex-wrap: wrap;
 
   /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
 }
@@ -26,7 +27,9 @@ a {
 
 .toggle-btn {
   color: #2f3c7e;
-  margin-left: 130px;
+  width: auto;
+  height: 100%;
+  margin-left: 150px;
 }
 
 .h1_left {

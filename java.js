@@ -10,18 +10,16 @@ function toggleMenu() {
   let menuShown = menu.classList.contains("shown");
   // b) lav variablen "menuShown", som siger, at menu-variablen indeholder klassen "shown" via classList.contains("")
 
-  // c) spørg om "menuShown" i if-sætningen nedenfor (=> if (menuShown)), og udskift teksten
-  if (menuShown) {
-    console.log(menuShown); // se i konsollen
-    // sæt btn.textContent til "Luk", hvis menuShown er "true"
-    btn.textContent = "Luk";
-  } else {
-    console.log(menuShown); // se i konsollen
-    // sæt btn.textContent til "Menu", hvis menuShown er "false"
-    btn.textContent = "Menu";
-  }
-  // "toggleMenu()" slutter her
+  // // c) spørg om "menuShown" i if-sætningen nedenfor (=> if (menuShown)), og udskift teksten
+  // if (menuShown) {
+  //   console.log(menuShown); // se i konsollen
+  //   // sæt btn.textContent til "Luk", hvis menuShown er "true"
+  //   btn.textContent = "Luk";
+  // } else {
+  //   console.log(menuShown); // se i konsollen
 }
+// "toggleMenu()" slutter her
+// }
 
 // Tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
 btn.addEventListener("click", toggleMenu);
