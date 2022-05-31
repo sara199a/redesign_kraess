@@ -63,6 +63,7 @@ h6 {
 
   .btn_laes_mere {
     border: none;
+    display: grid;
   }
 }
 
