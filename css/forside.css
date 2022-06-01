@@ -6,6 +6,15 @@ h6 {
   font-weight: bolder;
 }
 
+.video_forside {
+  display: grid;
+}
+
+header > * {
+  display: grid;
+  grid-area: 1/1;
+}
+
 /*  MOBILVERSION */
 @media (min-width: 700px) {
   .container_usp {
