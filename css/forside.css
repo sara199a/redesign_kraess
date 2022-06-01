@@ -105,12 +105,19 @@ h5 {
   .btn_laes_mere {
     border: none;
     display: grid;
+    border: none;
+    width: 8rem;
+    height: 2.5rem;
+    padding-bottom: 0.2em;
+    background-color: #2f3c7e;
+    margin-top: 1.1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    place-self: center;
   }
-}
-
-.btn {
-  display: grid;
-  margin-inline: auto;
 }
 
 /*KODE TIL POPULÆREPRODUKTER*/
