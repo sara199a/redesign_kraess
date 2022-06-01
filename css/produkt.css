@@ -156,10 +156,6 @@
   padding-top: 4rem;
 }
 
-.img_wrapper {
-  aspect-ratio: 1;
-}
-
 @media (max-width: 1000px) {
   .sidebar {
     display: none;
@@ -185,4 +181,12 @@
     margin-bottom: 10px;
     padding-top: 4rem;
   }
+}
+
+.grid {
+  display: grid;
+}
+
+img_wrapper2 {
+  width: fit-content;
 }

@@ -163,10 +163,12 @@ footer li {
   text-align: center;
 }
 
+/* Facebook instagram logo i footer */
 .footer_logo {
   display: flex;
   width: 25%;
   height: 25%;
+  align-items: center;
 }
 
 /* COPYRIGT CENTRERET */
