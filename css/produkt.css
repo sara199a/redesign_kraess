@@ -33,7 +33,7 @@
 }
 
 /* my rug og tekst */
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
   .produkt_1 {
     display: grid;
     grid-template-columns: 0.8fr 1.5fr 2fr;
@@ -42,6 +42,34 @@
     margin-bottom: 40px;
     margin-top: 2rem;
   }
+  /* rug info */
+  .tekst_produkt1 {
+    padding-left: 6rem;
+    max-width: 75ch;
+  }
+  .designer_citat {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(113, 113, 113);
+    font-style: italic;
+    font-size: 1rem;
+    /* padding-left: 10rem; */
+    text-align: center;
+    padding-top: 6rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    padding-inline: 6rem;
+    gap: 2rem;
+  }
+}
+
+.produkt_1 {
+  padding: 1rem;
+  padding-inline: 6rem;
+  margin-bottom: 40px;
+  margin-top: 2rem;
 }
 
 /* produkt billeder */
@@ -52,19 +80,13 @@
   padding-inline: 1.2rem;
 }
 
-/* rug info */
-.tekst_produkt1 {
-  padding-left: 6rem;
-  max-width: 75ch;
-}
-
 .h1_sort {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* font-style: italic; */
   font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 10px;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .pris {
@@ -85,6 +107,10 @@
   cursor: pointer;
   font-size: 0.8rem;
   color: white;
+}
+
+.button2:hover {
+  background-color: #0029f4;
 }
 
 .p1 {
@@ -108,23 +134,12 @@
   font-weight: 600;
 }
 
-.designer_citat {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(113, 113, 113);
-  font-style: italic;
-  font-size: 1rem;
-  /* padding-left: 10rem; */
-  text-align: center;
-  padding-top: 6rem;
-}
-
 /* GRID TIL BUNDEN IFT ANDRE PRODUKTER MAN MÅSKE KAN LIDE */
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 30px;
-  padding-inline: 6rem;
-  gap: 2rem;
+  gap: 10px;
 }
 
 .flere_produkter {
@@ -145,8 +160,29 @@
   aspect-ratio: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .sidebar {
     display: none;
+  }
+
+  .designer_citat {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+  .maaske_du_kan_lide {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    padding-top: 4rem;
   }
 }
