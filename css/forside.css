@@ -35,15 +35,11 @@ h6 {
   padding-block: 2rem;
 }
 
-/* TO BILLEDER MED KNAP*/
+/* TO BILLEDER MED KNAP */
 @media (min-width: 700px) {
   .container_karrusel {
     display: flex;
     gap: 25px;
-  }
-  .tekst_finurligheder {
-    margin-bottom: 20px;
-    color: #fbeaeb;
   }
 }
 
@@ -51,8 +47,6 @@ h6 {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  padding-inline: 15rem;
-  padding-block: 2rem;
 }
 
 .img_vase {
@@ -65,10 +59,15 @@ h6 {
 }
 
 .btn_udforsk {
-  border-width: 1px;
-  height: 1.8rem;
-  width: 5rem;
+  border-width: 2px;
+  height: 3rem;
+  width: 8rem;
+  background-color: transparent;
+  border: 2px solid #2f3c7e;
+  color: #2f3c7e;
+  font-size: 1.5rem;
 }
+
 
 /* img, */
 h5 {
@@ -81,6 +80,10 @@ h5 {
   border-width: 1px;
   height: 1.8rem;
   width: 5rem;
+  color: #2f3c7e;
+  text-shadow: 1px solid pink;
+  text-align: center;
+  font-size: 38px;
 }
 
 /* img, */
@@ -97,31 +100,33 @@ h5 {
     display: flex;
     max-width: 75ch;
     text-align: center;
+    color: #2f3c7e;
     margin-inline: auto;
   }
-  .forside_omos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    gap: 10px;
-  }
+}
 
-  .btn_laes_mere {
-    border: none;
-    display: grid;
-    border: none;
-    width: 8rem;
-    padding: 2rem;
-    background-color: #2f3c7e;
-    margin-top: 1.1rem;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    color: white;
-    text-align: center;
-    place-self: center;
-  }
+.forside_omos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 10px;
+}
+
+.btn_laes_mere {
+  border: none;
+  display: grid;
+   border: 2px solid #2f3c7e;
+  width: 8rem;
+  padding: 1rem;
+  background-color: transparent;
+  margin-top: 1.1rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color:#2f3c7e
+  text-align: center;
+  place-self: center;
 }
 
 /*KODE TIL POPULÆREPRODUKTER*/
@@ -152,7 +157,7 @@ h6 {
 
 .img_wrapper {
   aspect-ratio: 1/1;
-  width: 300px;
+  width: 480px;
 }
 
 /* Grid forside trekant */
