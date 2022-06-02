@@ -163,11 +163,16 @@ footer li {
   text-align: center;
 }
 
+/* Facebook instagram logo i footer */
 .footer_logo {
   display: flex;
   width: 25%;
   height: 25%;
+<<<<<<< HEAD
   text-align: center;
+=======
+  align-items: center;
+>>>>>>> 8fc5021c3778b812d549824b45bd2545c6004eca
 }
 
 /* COPYRIGT CENTRERET */

@@ -6,6 +6,18 @@ h6 {
   font-weight: bolder;
 }
 
+.icon_container {
+  display: flex;
+  margin-top: 10px;
+  gap: 2rem;
+  /* padding-left: 12rem; */
+  margin-right: auto;
+}
+
+ul :last-child {
+  justify-content: space-between;
+}
+
 .video_forside {
   display: grid;
 }
@@ -206,6 +218,7 @@ h6 {
     gap: 20px;
     padding-left: 4rem;
     padding-right: 4rem;
+    padding-bottom: 20px;
   }
 }
 
