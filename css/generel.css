@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+/* CUSTOM PROPERTY  */
+html {
+  --primary-color: #2f3c7e;
+}
+
 body {
   background-color: #fbeaeb;
 }
@@ -21,21 +26,21 @@ p {
   font-size: 1.1rem;
 }
 
+/* MENUEN */
 
-  /* MENUEN */
-
-  /* HELE HEADEREN, HVOR ALLE ELEMENTER LIGGER I */
+/* HELE HEADEREN, HVOR ALLE ELEMENTER LIGGER I */
 .menu {
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: rgba(255, 255, 171, 0.367);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 171, 0.367);
 }
 
 /* STYLING AF LOGO */
 .logo {
   width: 110px;
   margin-left: 20px;
+  padding: 0.5rem;
 }
 
 /* STYLING AF MENUEN (NAVIGATION) */
@@ -62,7 +67,7 @@ a {
 }
 
 a:hover {
-  color: #2f3c7e;
+  color: var(--primary-color);
 }
 
 /* STYLING AF IKONER I MENUEN */
@@ -72,12 +77,16 @@ a:hover {
   margin-right: 20px;
 }
 
+@media (max-width: 700px) {
+  .icons {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
-.icons {
-  display: none;
+  .icons {
+    display: none;
+  }
 }
-}
-
 
 /* BURGERMENU MOBILVERSION */
 .toggle-btn {
@@ -87,16 +96,14 @@ a:hover {
   min-height: 44px;
   font-size: 1.1rem;
   cursor: pointer;
- 
 
   display: none; /* Skjul knappen som standard */
 }
 
 .toggle-btn {
-  color: #2f3c7e;
+  color: var(--primary-color);
   width: auto;
   height: 100%;
-
 }
 
 @media (max-width: 600px) {
@@ -121,14 +128,10 @@ a:hover {
     flex: 1 1 100%;
     flex-flow: column;
     margin-left: auto;
-      top: 20px;
-  left: 20px;
+    top: 20px;
+    left: 20px;
   }
 }
-
-
-
-
 
 /* FOOTER */
 footer {
@@ -137,7 +140,7 @@ footer {
   text-decoration: none;
   list-style: none;
   text-align: center;
-  background-color: #2f3c7e;
+  background-color: var(--primary-color);
   padding: 2rem;
   color: #c1b2b3;
 }
@@ -153,7 +156,7 @@ footer li {
 .footer_logo {
   display: flex;
   width: 25%;
-  height: 25%
+  height: 25%;
   height: 25%;
   text-align: center;
   align-items: center;
@@ -167,7 +170,7 @@ footer li {
 }
 
 h2 {
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-family: "Quicksand", sans-serif;
 }
 
@@ -179,7 +182,7 @@ h2 {
 
 h1 {
   text-align: center;
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -191,16 +194,13 @@ h1 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   background-color: white;
-  color: #2f3c7e;
+  color: var(--primary-color);
   margin-top: 80px;
 }
 
 h3 {
   font-family: "Quicksand", sans-serif;
 }
-
-
-
 
 /*menu taget fra designersiden*/
 

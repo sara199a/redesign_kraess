@@ -26,7 +26,7 @@ a {
 }
 
 .toggle-btn {
-  color: #2f3c7e;
+  color: var(--primary-color);
   width: auto;
   height: 100%;
   margin-left: 150px;
