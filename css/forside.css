@@ -6,6 +6,20 @@ h6 {
   font-weight: bolder;
 }
 
+/* hide video vis billede */
+@media (max-width: 700px) {
+  video {
+    display: none;
+  }
+}
+
+/* hide billede vis video */
+@media (min-width: 700px) {
+  .butik_billede {
+    display: none;
+  }
+}
+
 .icon_container {
   display: flex;
   margin-top: 10px;
