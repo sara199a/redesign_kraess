@@ -23,7 +23,7 @@ video {
 
 p {
   font-family: "Quicksand", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* MENUEN */
@@ -142,6 +142,30 @@ footer {
   background-color: var(--primary-color);
   padding: 2rem;
   color: #c1b2b3;
+}
+
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col1 {
+    padding-block: 1.5rem;
+  }
+
+  .col2 {
+    padding-block: 1.5rem;
+  }
+
+  .col3 {
+    padding-block: 1.5rem;
+  }
+
+  .footer_logo {
+    display: grid;
+    grid-column: span 4;
+  }
 }
 
 footer li {

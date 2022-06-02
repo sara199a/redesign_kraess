@@ -105,7 +105,6 @@ header > * {
 .shop_knap {
   border: none;
   display: grid;
-  border: 2px solid #2f3c7e;
   width: 9rem;
   padding: 0.4rem;
   background-color: #2f3c7e;
@@ -153,6 +152,7 @@ h5 {
     gap: 5rem;
     padding-bottom: 1.5rem;
     grid-template-columns: 1fr 1fr;
+    margin: 4rem;
   }
 
   .img_vase {
