@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+/* CUSTOM PROPERTY  */
+html {
+  --primary-color: #2f3c7e;
+}
+
 body {
   background-color: #fbeaeb;
 }
@@ -62,7 +67,7 @@ a {
 }
 
 a:hover {
-  color: #2f3c7e;
+  color: var(--primary-color);
 }
 
 /* STYLING AF IKONER I MENUEN */
@@ -96,7 +101,7 @@ a:hover {
 }
 
 .toggle-btn {
-  color: #2f3c7e;
+  color: var(--primary-color);
   width: auto;
   height: 100%;
 }
@@ -135,7 +140,7 @@ footer {
   text-decoration: none;
   list-style: none;
   text-align: center;
-  background-color: #2f3c7e;
+  background-color: var(--primary-color);
   padding: 2rem;
   color: #c1b2b3;
 }
@@ -165,7 +170,7 @@ footer li {
 }
 
 h2 {
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-family: "Quicksand", sans-serif;
 }
 
@@ -177,7 +182,7 @@ h2 {
 
 h1 {
   text-align: center;
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -189,7 +194,7 @@ h1 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   background-color: white;
-  color: #2f3c7e;
+  color: var(--primary-color);
   margin-top: 80px;
 }
 
