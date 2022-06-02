@@ -68,12 +68,20 @@ a:hover {
 
 /* STYLING AF IKONER I MENUEN */
  .icons {
-    width: 10%;
+   
+   flex-shrink: 0;
+    /* width: 10%;
     height: auto;
     display: grid;
+  
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 10px; */
 }
+.icons a {
+  display: flex;
+  gap: 10px;
+}
+
 @media (max-width: 600px) {
 .icons {
   display: none;
