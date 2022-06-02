@@ -36,6 +36,7 @@ p {
 .logo {
   width: 110px;
   margin-left: 20px;
+  padding: 0.5rem;
 }
 
 /* STYLING AF MENUEN (NAVIGATION) */
@@ -72,7 +73,7 @@ a:hover {
   margin-right: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 .icons {
   display: none;
 }
