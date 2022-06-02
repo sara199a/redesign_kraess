@@ -105,6 +105,34 @@ header > * {
   color: white;
 }
 
+.shop_knap {
+  border: none;
+  display: grid;
+  border: 2px solid #2f3c7e;
+  width: 7rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  margin-top: 1.1rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #2f3c7e;
+  text-align: center;
+  place-self: center;
+  color: #2f3c7e;
+  font-size: 1rem;
+}
+
+.shop_knap:hover {
+  background-color: #0029f4;
+  color: white;
+}
+
+/* Knap ovenpå video */
+.video_forside > * {
+  grid-area: 1/1;
+}
+
 /* img, */
 h5 {
   display: grid;
