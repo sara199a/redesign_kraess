@@ -121,6 +121,7 @@ header > * {
 
 .shop_knap:hover {
   color: white;
+  background-color: #0029f4;
 }
 
 /* Knap ovenpå video */
