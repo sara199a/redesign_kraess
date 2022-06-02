@@ -78,10 +78,6 @@ header > * {
   }
 }
 
-.img_vase > * {
-  grid-area: 1/1;
-}
-
 .btn_udforsk {
   border: none;
   display: grid;
@@ -98,6 +94,7 @@ header > * {
   place-self: center;
   color: #2f3c7e;
   font-size: 1rem;
+  margin-inline: auto;
 }
 
 .btn_udforsk:hover {
@@ -113,12 +110,12 @@ header > * {
   padding: 0.5rem;
   background-color: transparent;
   margin-top: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
   cursor: pointer;
   font-size: 0.8rem;
   color: #2f3c7e;
   text-align: center;
-  place-self: center;
+  place-self: end center;
   color: #2f3c7e;
   font-size: 1rem;
 }
@@ -133,21 +130,13 @@ header > * {
   grid-area: 1/1;
 }
 
-.video_forside {
-  justify-content: center;
-}
-
 /* img, */
 h5 {
-  display: grid;
   grid-area: 1/1;
-  margin: 10px;
 }
 
 h5 {
   border-width: 1px;
-  height: 1.8rem;
-  width: 5rem;
   color: #2f3c7e;
   text-shadow: 1px solid pink;
   text-align: center;
@@ -183,6 +172,11 @@ h5 {
     background-color: #0029f4;
     color: white;
   }
+}
+
+.img_vase > * {
+  grid-area: 1/1;
+  place-self: center;
 }
 
 /* OM KRÆS FORSIDE*/
@@ -256,8 +250,8 @@ h6 {
 }
 
 .img_wrapper {
-  aspect-ratio: 1/1;
-  width: 480px;
+  max-width: 480px;
+  height: 100%;
 }
 
 /* Grid forside trekant */
