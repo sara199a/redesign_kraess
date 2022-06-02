@@ -137,7 +137,6 @@ h5 {
 h5 {
   border-width: 1px;
   color: var(--primary-color);
-  text-shadow: 1px solid pink;
   text-align: center;
   font-size: 38px;
 }
@@ -162,7 +161,7 @@ h5 {
   }
 
   .img_vase img {
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     object-fit: cover;
     width: auto;
     height: 100%;
@@ -198,7 +197,7 @@ h5 {
   }
 
   .img_vase img {
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     object-fit: cover;
     width: auto;
     height: 100%;

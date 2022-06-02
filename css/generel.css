@@ -60,7 +60,7 @@ li {
   text-decoration: none;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8;
+  font-size: 1rem;
 }
 
 .navbar a:hover {
@@ -199,12 +199,6 @@ h2 {
   font-family: "Quicksand", sans-serif;
 }
 
-.h2_sort {
-  color: black;
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
 h1 {
   text-align: center;
   color: var(--primary-color);
@@ -226,12 +220,3 @@ h1 {
 h3 {
   font-family: "Quicksand", sans-serif;
 }
-
-/*menu taget fra designersiden*/
-
-/* .main-menu ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-} */

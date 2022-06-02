@@ -3,7 +3,6 @@
   padding-inline: 1rem;
   display: flex;
   gap: 80px;
-  place-content: left;
   z-index: 1;
 
   /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
