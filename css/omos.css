@@ -56,12 +56,12 @@ img {
 .open {
   margin-top: 3rem;
   margin-bottom: 10px;
-  color: #2f3c7e;
+  color: var(--primary-color);
 }
 
 .citat {
   font-family: Arial, Helvetica, sans-serif;
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-style: italic;
   font-size: 2rem;
   text-align: center;
@@ -70,7 +70,7 @@ img {
 
 .citat_2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-style: italic;
   font-size: 2rem;
   text-align: center;

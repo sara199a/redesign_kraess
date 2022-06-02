@@ -64,7 +64,7 @@ li {
 }
 
 .navbar a:hover {
-  color: #2f3c7e;
+  color: var(--primary-color);
 }
 
 .menu {
@@ -75,7 +75,7 @@ li {
   width: 20px;
   height: 2px;
   margin-bottom: 5px;
-  background-color: #2f3c7e;
+  background-color: var(--primary-color);
 }
 
 .icons {
@@ -111,7 +111,7 @@ li {
   .nav_list,
   li {
     display: block;
-    border-bottom: 1px solid #2f3c7e;
+    border-bottom: 1px solid var(--primary-color);
   }
 
   .nav_list {
@@ -214,7 +214,7 @@ h1 {
 }
 
 .btn_findvej {
-  border: 0.07rem solid #2f3c7e;
+  border: 0.07rem solid var(--primary-color);
   width: 7.5em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;

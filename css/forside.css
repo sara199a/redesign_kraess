@@ -81,7 +81,7 @@ header > * {
 .btn_udforsk {
   border: none;
   display: grid;
-  border: 2px solid #2f3c7e;
+  border: 2px solid var(--primary-color);
   width: 7rem;
   padding: 0.5rem;
   background-color: transparent;
@@ -89,25 +89,26 @@ header > * {
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 0.8rem;
-  color: #2f3c7e;
+  color: var(--primary-color);
   text-align: center;
   place-self: center;
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-size: 1rem;
   margin-inline: auto;
 }
 
 .btn_udforsk:hover {
-  background-color: #2f3c7e;
+  background-color: var(--primary-color);
   color: white;
 }
 
 .shop_knap {
   border: none;
   display: grid;
-  width: 9rem;
-  padding: 0.4rem;
-  background-color: #2f3c7e;
+  width: 11rem;
+  height: 3rem;
+  padding: 0.8rem;
+  background-color: var(--primary-color);
   margin-top: 1.1rem;
   margin-bottom: 12%;
   cursor: pointer;
@@ -135,7 +136,7 @@ h5 {
 
 h5 {
   border-width: 1px;
-  color: #2f3c7e;
+  color: var(--primary-color);
   text-shadow: 1px solid pink;
   text-align: center;
   font-size: 38px;
@@ -236,7 +237,7 @@ h5 {
 .btn_laes_mere {
   border: none;
   display: grid;
-  border: 2px solid #2f3c7e;
+  border: 2px solid var(--primary-color);
   width: 10rem;
   padding: 0.5rem;
   background-color: transparent;
@@ -244,15 +245,15 @@ h5 {
   margin-bottom: 20px;
   cursor: pointer;
   font-size: 0.8rem;
-  color: #2f3c7e;
+  color: var(--primary-color);
   text-align: center;
   place-self: center;
-  color: #2f3c7e;
+  color: var(--primary-color);
   font-size: 1rem;
 }
 
 .btn_laes_mere:hover {
-  background-color: #2f3c7e;
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -274,12 +275,12 @@ h5 {
   }
 }
 .billeder_populære {
-  background-color: #2f3c7e;
+  background-color: var(--primary-color);
   padding: 2rem;
 }
 
 h6 {
-  color: #2f3c7e;
+  color: var(--primary-color);
   padding-top: 5px;
 }
 
