@@ -21,15 +21,14 @@ p {
   font-size: 1.1rem;
 }
 
+/* MENUEN */
 
-  /* MENUEN */
-
-  /* HELE HEADEREN, HVOR ALLE ELEMENTER LIGGER I */
+/* HELE HEADEREN, HVOR ALLE ELEMENTER LIGGER I */
 .menu {
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: rgba(255, 255, 171, 0.367);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 171, 0.367);
 }
 
 /* STYLING AF LOGO */
@@ -73,12 +72,18 @@ a:hover {
   margin-right: 20px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 700px) {
 .icons {
   display: none;
 }
+=======
+@media (max-width: 600px) {
+  .icons {
+    display: none;
+  }
+>>>>>>> 7fcaf5f1fa563c6f8cb2ca483993758fc11b4933
 }
-
 
 /* BURGERMENU MOBILVERSION */
 .toggle-btn {
@@ -88,7 +93,6 @@ a:hover {
   min-height: 44px;
   font-size: 1.1rem;
   cursor: pointer;
- 
 
   display: none; /* Skjul knappen som standard */
 }
@@ -97,7 +101,6 @@ a:hover {
   color: #2f3c7e;
   width: auto;
   height: 100%;
-
 }
 
 @media (max-width: 600px) {
@@ -122,14 +125,10 @@ a:hover {
     flex: 1 1 100%;
     flex-flow: column;
     margin-left: auto;
-      top: 20px;
-  left: 20px;
+    top: 20px;
+    left: 20px;
   }
 }
-
-
-
-
 
 /* FOOTER */
 footer {
@@ -154,7 +153,7 @@ footer li {
 .footer_logo {
   display: flex;
   width: 25%;
-  height: 25%
+  height: 25%;
   height: 25%;
   text-align: center;
   align-items: center;
@@ -199,9 +198,6 @@ h1 {
 h3 {
   font-family: "Quicksand", sans-serif;
 }
-
-
-
 
 /*menu taget fra designersiden*/
 
