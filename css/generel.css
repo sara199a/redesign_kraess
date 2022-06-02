@@ -151,7 +151,7 @@ footer {
   }
 
   .col1 {
-    padding-block: 1rem;
+    padding-block: 6rem;
   }
 
   .col2 {
@@ -166,9 +166,6 @@ footer {
     display: grid;
     grid-column: span 4;
   }
-}
-
-@media (min-width: 600px) {
 }
 
 footer li {
