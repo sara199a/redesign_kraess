@@ -82,11 +82,11 @@ header > * {
   border: none;
   display: grid;
   border: 2px solid #2f3c7e;
-  width: 9rem;
+  width: 7rem;
   padding: 0.5rem;
   background-color: transparent;
   margin-top: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   cursor: pointer;
   font-size: 0.8rem;
   color: #2f3c7e;
@@ -98,7 +98,7 @@ header > * {
 }
 
 .btn_udforsk:hover {
-  background-color: #0029f4;
+  background-color: #2f3c7e;
   color: white;
 }
 
@@ -106,23 +106,22 @@ header > * {
   border: none;
   display: grid;
   border: 2px solid #2f3c7e;
-  width: 7rem;
-  padding: 0.5rem;
-  background-color: transparent;
+  width: 9rem;
+  padding: 0.4rem;
+  background-color: #2f3c7e;
   margin-top: 1.1rem;
-  margin-bottom: 10%;
+  margin-bottom: 12%;
   cursor: pointer;
   font-size: 0.8rem;
-  color: #2f3c7e;
   text-align: center;
   place-self: end center;
-  color: #2f3c7e;
+  color: white;
   font-size: 1rem;
 }
 
 .shop_knap:hover {
-  background-color: #0029f4;
   color: white;
+  background-color: #0029f4;
 }
 
 /* Knap ovenpå video */
@@ -144,32 +143,34 @@ h5 {
 }
 
 /* udfork produkter */
-.vase2 {
-  display: grid;
-  grid-area: 1/1;
-  margin: 10px;
-}
+@media (min-width: 700px) {
+  .vase2 {
+    display: grid;
+  }
 
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  padding-bottom: 1.5rem;
-}
+  .container {
+    display: grid;
+    gap: 5rem;
+    padding-bottom: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.img_vase {
-  display: grid;
-  place-items: center;
-}
+  .img_vase {
+    display: grid;
+    place-items: center;
+  }
 
-.img_vase img {
-  aspect-ratio: 1;
-  object-fit: cover;
-}
+  .img_vase img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+  }
 
-.btn_udforsk:hover {
-  background-color: #0029f4;
-  color: white;
+  .btn_udforsk:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
 }
 
 .img_vase > * {
@@ -216,7 +217,7 @@ h5 {
 }
 
 .btn_laes_mere:hover {
-  background-color: #0029f4;
+  background-color: #2f3c7e;
   color: white;
 }
 
@@ -248,7 +249,7 @@ h6 {
 }
 
 .img_wrapper {
-  max-width: 480px;
+  width: 100%;
   height: 100%;
 }
 
