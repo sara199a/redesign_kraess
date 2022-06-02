@@ -273,6 +273,12 @@ h6 {
   }
 }
 
+.grid_trekant > * {
+  display: grid;
+  padding-block: 5px;
+  padding-inline: 2rem;
+}
+
 .bord2 {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
@@ -310,4 +316,8 @@ h6 {
 .container_usp img {
   width: 50px;
   height: auto;
+}
+
+.container_usp {
+  margin-inline: 3rem;
 }
