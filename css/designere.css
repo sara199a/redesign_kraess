@@ -1,10 +1,12 @@
 /* header */
 .banner {
-  padding: 1rem;
+  padding-inline: 1rem;
   display: flex;
   gap: 80px;
   place-content: left;
   flex-wrap: wrap;
+  position: fixed;
+  z-index: 1;
 
   /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
 }
@@ -34,9 +36,11 @@ a {
 
 .h1_left {
   text-align: center;
+  font-size: 4rem;
 }
 .h2_left {
   text-align: center;
+  font-size: 3rem;
 }
 
 /*.grid_designere {
