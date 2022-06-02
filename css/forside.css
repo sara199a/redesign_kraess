@@ -178,6 +178,41 @@ h5 {
   place-self: center;
 }
 
+/* udfork produkter MOBIL */
+@media (max-width: 700px) {
+  .vase2 {
+    display: grid;
+  }
+
+  .container {
+    display: grid;
+    gap: 5rem;
+    padding-bottom: 1.5rem;
+    margin: 4rem;
+  }
+
+  .img_vase {
+    display: grid;
+    place-items: center;
+  }
+
+  .img_vase img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: auto;
+    height: 100%;
+  }
+
+  .btn_udforsk:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .img_vase > * {
+    grid-area: 1/1;
+    place-self: center;
+  }
+}
+
 /* OM KRÆS FORSIDE*/
 
 @media (min-width: 700px) {
