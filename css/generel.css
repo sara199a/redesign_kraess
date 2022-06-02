@@ -10,7 +10,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
 video {
@@ -67,19 +66,10 @@ a:hover {
 }
 
 /* STYLING AF IKONER I MENUEN */
- .icons {
-   
-   flex-shrink: 0;
-    /* width: 10%;
-    height: auto;
-    display: grid;
-  
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px; */
-}
 .icons a {
   display: flex;
   gap: 10px;
+  margin-right: 20px;
 }
 
 @media (max-width: 600px) {
@@ -97,6 +87,7 @@ a:hover {
   min-height: 44px;
   font-size: 1.1rem;
   cursor: pointer;
+ 
 
   display: none; /* Skjul knappen som standard */
 }
@@ -105,7 +96,7 @@ a:hover {
   color: #2f3c7e;
   width: auto;
   height: 100%;
-  margin-left: 150px;
+
 }
 
 @media (max-width: 600px) {
@@ -130,6 +121,8 @@ a:hover {
     flex: 1 1 100%;
     flex-flow: column;
     margin-left: auto;
+      top: 20px;
+  left: 20px;
   }
 }
 
