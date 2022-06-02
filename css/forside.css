@@ -64,18 +64,6 @@ header > * {
   }
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  padding-bottom: 1.5rem;
-}
-
-.img_vase {
-  display: grid;
-  place-items: center;
-}
-
 .img_vase > * {
   grid-area: 1/1;
 }
@@ -120,11 +108,30 @@ h5 {
   font-size: 38px;
 }
 
-/* img, */
-.vase2 {
-  display: grid;
-  grid-area: 1/1;
-  margin: 10px;
+/* udfork produkter */
+@media (min-width: 700px) {
+  .vase2 {
+    display: grid;
+    grid-area: 1/1;
+    margin: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .img_vase {
+    display: grid;
+    place-items: center;
+  }
+
+  .btn_udforsk:hover {
+    background-color: #0029f4;
+    color: white;
+  }
 }
 
 /* OM KRÆS FORSIDE*/
