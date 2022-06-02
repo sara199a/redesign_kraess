@@ -3,43 +3,85 @@
   box-sizing: border-box;
 }
 
-/* MELLEMRUM FRA TOP OG BUND =BLOCK 
-section {
-  padding-block: 2rem;
-}
-*/
-
-/* GENERELT FOR ALLE BILLDER */
-img {
-  width: 100%;
-  height: auto;
-  display: inline-block;
-}
-
-/* MANGLER CSS TIL : iconer til forside */
-
 body {
   background-color: #fbeaeb;
 }
 
-/* MENU */
-/* .banner {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
+video {
+  max-width: 100%;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+}
+
+
+  /* MENUEN */
+
+  /* HELE HEADEREN, HVOR ALLE ELEMENTER LIGGER I */
+.menu {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: rgba(255, 255, 171, 0.367);
+}
+
+/* STYLING AF LOGO */
+.logo {
+  width: 110px;
+  margin-left: 20px;
+}
+
+/* STYLING AF MENUEN (NAVIGATION) */
 .menu ul {
   list-style: none;
-  padding: 0;
   display: flex;
   gap: 20px;
   margin-top: 10px;
-
-  /* 2. Få elementerne til at stå ved siden af hinanden */
 }
 
-/* burgermenu */
+/* STYLING AF LISTELEMENTER */
+nav li {
+  display: inline-block;
+  padding: 1.2rem 1rem;
+  text-decoration: none;
+}
+
+/* STYLING AF SELVE TEKSTEN I MENUEN */
+a {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: #2f3c7e;
+}
+
+/* STYLING AF IKONER I MENUEN */
+ .icons {
+    width: 10%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+@media (max-width: 600px) {
+.icons {
+  display: none;
+}
+}
+
+
+/* BURGERMENU MOBILVERSION */
 .toggle-btn {
   background: transparent;
   border: none;
@@ -49,6 +91,13 @@ body {
   cursor: pointer;
 
   display: none; /* Skjul knappen som standard */
+}
+
+.toggle-btn {
+  color: #2f3c7e;
+  width: auto;
+  height: 100%;
+  margin-left: 150px;
 }
 
 @media (max-width: 600px) {
@@ -73,76 +122,12 @@ body {
     flex: 1 1 100%;
     flex-flow: column;
     margin-left: auto;
-    top: 46.4px;
-    right: 32px;
   }
 }
 
-nav li {
-  margin-left: auto;
-  list-style: none;
-  position: relative;
-}
 
-a {
-  font-family: "Quicksand", sans-serif;
-  text-decoration: none;
-  color: black;
-  font-size: 1.4rem;
-}
 
-a:hover {
-  color: #2f3c7e;
-}
 
-video {
-  max-width: 100%;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.1rem;
-}
-
-/* header */
-.banner {
-  padding: 1rem;
-  display: flex;
-  gap: 80px;
-  place-content: left;
-  flex-wrap: wrap;
-
-  /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
-}
-
-/*menu taget fra designersiden*/
-
-.main-menu ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-}
-
-.logo {
-  max-width: 110px;
-  margin-left: 20px;
-}
-
-a {
-  font-size: 1.2rem;
-}
-
-.toggle-btn {
-  color: #2f3c7e;
-  width: auto;
-  height: 100%;
-  margin-left: 150px;
-}
-
-.menu {
-  padding-top: 2rem;
-}
 
 /* FOOTER */
 footer {
@@ -167,8 +152,8 @@ footer li {
 .footer_logo {
   display: flex;
   width: 25%;
+  height: 25%
   height: 25%;
-
   text-align: center;
   align-items: center;
 }
@@ -212,3 +197,15 @@ h1 {
 h3 {
   font-family: "Quicksand", sans-serif;
 }
+
+
+
+
+/*menu taget fra designersiden*/
+
+/* .main-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+} */

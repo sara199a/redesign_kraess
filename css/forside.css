@@ -133,6 +133,10 @@ header > * {
   grid-area: 1/1;
 }
 
+.video_forside {
+  justify-content: center;
+}
+
 /* img, */
 h5 {
   display: grid;
