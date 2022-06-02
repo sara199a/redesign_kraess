@@ -86,7 +86,7 @@ header > * {
   padding: 0.5rem;
   background-color: transparent;
   margin-top: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   cursor: pointer;
   font-size: 0.8rem;
   color: #2f3c7e;
@@ -98,7 +98,7 @@ header > * {
 }
 
 .btn_udforsk:hover {
-  background-color: #0029f4;
+  background-color: #2f3c7e;
   color: white;
 }
 
@@ -110,7 +110,7 @@ header > * {
   padding: 0.4rem;
   background-color: #2f3c7e;
   margin-top: 1.1rem;
-  margin-bottom: 20%;
+  margin-bottom: 12%;
   cursor: pointer;
   font-size: 0.8rem;
   text-align: center;
@@ -146,15 +146,13 @@ h5 {
 @media (min-width: 700px) {
   .vase2 {
     display: grid;
-    grid-area: 1/1;
-    margin: 10px;
   }
 
   .container {
-    display: flex;
-    justify-content: center;
+    display: grid;
     gap: 5rem;
     padding-bottom: 1.5rem;
+    grid-template-columns: 1fr 1fr;
   }
 
   .img_vase {
@@ -165,6 +163,8 @@ h5 {
   .img_vase img {
     aspect-ratio: 1;
     object-fit: cover;
+    width: auto;
+    height: 100%;
   }
 
   .btn_udforsk:hover {
@@ -217,7 +217,7 @@ h5 {
 }
 
 .btn_laes_mere:hover {
-  background-color: #0029f4;
+  background-color: #2f3c7e;
   color: white;
 }
 
@@ -249,7 +249,7 @@ h6 {
 }
 
 .img_wrapper {
-  max-width: 480px;
+  width: 100%;
   height: 100%;
 }
 

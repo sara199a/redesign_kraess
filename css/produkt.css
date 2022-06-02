@@ -135,16 +135,19 @@
 }
 
 /* GRID TIL BUNDEN IFT ANDRE PRODUKTER MAN MÅSKE KAN LIDE */
-.grid {
+
+.continer_flere_produkter {
+  padding-inline: 3rem;
+  margin-bottom: 4rem;
+}
+
+.grid_flere_produkter {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 30px;
   gap: 10px;
-}
-
-.flere_produkter {
-  padding-inline: 3rem;
-  margin-bottom: 4rem;
+  width: 100%;
+  height: 100%;
 }
 
 .maaske_du_kan_lide {
@@ -165,7 +168,7 @@
     display: none;
   }
 
-  .grid {
+  .container_flere_produkter {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -181,12 +184,4 @@
     margin-bottom: 10px;
     padding-top: 4rem;
   }
-}
-
-.grid {
-  display: grid;
-}
-
-img_wrapper2 {
-  width: fit-content;
 }
