@@ -42,11 +42,8 @@ img {
     grid-template-columns: 1fr 1fr;
     margin-inline: 14rem;
     margin-bottom: 40px;
+    padding-inline: 8rem;
   }
-}
-
-.omos_3 {
-  padding-inline: 8rem;
 }
 
 .maps_info {
