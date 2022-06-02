@@ -182,8 +182,9 @@ footer li {
   width: 25%;
   height: 25%;
   height: 25%;
-  text-align: center;
-  align-items: center;
+  /*  text-align: center;
+  align-items: center; */
+  place-self: start center;
 }
 
 /* COPYRIGT CENTRERET */
