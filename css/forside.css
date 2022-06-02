@@ -6,6 +6,20 @@ h6 {
   font-weight: bolder;
 }
 
+/* hide video vis billede */
+@media (max-width: 700px) {
+  video {
+    display: none;
+  }
+}
+
+/* hide billede vis video */
+@media (min-width: 700px) {
+  .butik_billede {
+    display: none;
+  }
+}
+
 .icon_container {
   display: flex;
   margin-top: 10px;
@@ -64,18 +78,6 @@ header > * {
   }
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  padding-bottom: 1.5rem;
-}
-
-.img_vase {
-  display: grid;
-  place-items: center;
-}
-
 .img_vase > * {
   grid-area: 1/1;
 }
@@ -103,6 +105,34 @@ header > * {
   color: white;
 }
 
+.shop_knap {
+  border: none;
+  display: grid;
+  border: 2px solid #2f3c7e;
+  width: 7rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  margin-top: 1.1rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #2f3c7e;
+  text-align: center;
+  place-self: center;
+  color: #2f3c7e;
+  font-size: 1rem;
+}
+
+.shop_knap:hover {
+  background-color: #0029f4;
+  color: white;
+}
+
+/* Knap ovenpå video */
+.video_forside > * {
+  grid-area: 1/1;
+}
+
 /* img, */
 h5 {
   display: grid;
@@ -120,11 +150,30 @@ h5 {
   font-size: 38px;
 }
 
-/* img, */
-.vase2 {
-  display: grid;
-  grid-area: 1/1;
-  margin: 10px;
+/* udfork produkter */
+@media (min-width: 700px) {
+  .vase2 {
+    display: grid;
+    grid-area: 1/1;
+    margin: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .img_vase {
+    display: grid;
+    place-items: center;
+  }
+
+  .btn_udforsk:hover {
+    background-color: #0029f4;
+    color: white;
+  }
 }
 
 /* OM KRÆS FORSIDE*/

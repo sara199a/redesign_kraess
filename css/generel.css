@@ -153,7 +153,12 @@ footer li {
 .footer_logo {
   display: flex;
   width: 25%;
+<<<<<<< HEAD
   height: 25%
+=======
+  height: 25%;
+
+>>>>>>> 27da3305e58a78bcb28bc71054205320f68a403d
   text-align: center;
   align-items: center;
 }
