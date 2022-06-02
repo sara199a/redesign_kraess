@@ -146,15 +146,13 @@ h5 {
 @media (min-width: 700px) {
   .vase2 {
     display: grid;
-    grid-area: 1/1;
-    margin: 10px;
   }
 
   .container {
-    display: flex;
-    justify-content: center;
+    display: grid;
     gap: 5rem;
     padding-bottom: 1.5rem;
+    grid-template-columns: 1fr 1fr;
   }
 
   .img_vase {
@@ -165,6 +163,8 @@ h5 {
   .img_vase img {
     aspect-ratio: 1;
     object-fit: cover;
+    width: auto;
+    height: 100%;
   }
 
   .btn_udforsk:hover {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .img_wrapper {
-  max-width: 480px;
+  width: 100%;
   height: 100%;
 }
 
