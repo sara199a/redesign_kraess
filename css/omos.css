@@ -121,11 +121,19 @@ img {
   grid-row: 3 / 4;
 }
 
+/* mobile version */
 @media (max-width: 800px) {
   .grid_forside_om > * {
     display: grid;
     padding-block: 5px;
     padding-inline: 2rem;
+  }
+  .maps_info {
+    margin-bottom: 1.5rem;
+  }
+
+  .omos_2 {
+    margin-bottom: 40px;
   }
 
   .omos_3 > * {

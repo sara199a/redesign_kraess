@@ -308,10 +308,15 @@ h6 {
   }
 }
 
-.grid_trekant > * {
-  display: grid;
-  padding-block: 5px;
-  padding-inline: 2rem;
+@media (max-width: 700px) {
+  .grid_trekant {
+    padding-block: 1.5rem;
+  }
+  .grid_trekant > * {
+    display: grid;
+    padding-block: 5px;
+    padding-inline: 2rem;
+  }
 }
 
 .bord2 {
@@ -351,6 +356,12 @@ h6 {
 .container_usp img {
   width: 50px;
   height: auto;
+}
+
+/* tekst for ikoner */
+.p1 {
+  font-size: 0.9rem;
+  max-width: 40ch;
 }
 
 .container_usp {
