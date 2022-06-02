@@ -72,17 +72,15 @@ a:hover {
   margin-right: 20px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 700px) {
-.icons {
-  display: none;
+  .icons {
+    display: none;
+  }
 }
-=======
 @media (max-width: 600px) {
   .icons {
     display: none;
   }
->>>>>>> 7fcaf5f1fa563c6f8cb2ca483993758fc11b4933
 }
 
 /* BURGERMENU MOBILVERSION */
