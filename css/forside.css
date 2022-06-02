@@ -170,6 +170,11 @@ h5 {
     place-items: center;
   }
 
+  .img_vase img {
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
   .btn_udforsk:hover {
     background-color: #0029f4;
     color: white;
