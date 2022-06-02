@@ -29,6 +29,7 @@ p {
 /* MENUEN */
 
 /* HELE HEADEREN, HVOR ALLE ELEMENTER LIGGER I */
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -104,6 +105,8 @@ a:hover {
   color: var(--primary-color);
   width: auto;
   height: 100%;
+  margin-left: 330px;
+  margin-top: -70px;
 }
 
 @media (max-width: 600px) {
@@ -123,13 +126,9 @@ a:hover {
     /* Vis menu-listen, når klassen ".shown" er til stede */
     position: absolute;
     border-top: 1px solid #000;
-    padding-top: 1rem;
     display: flex;
     flex: 1 1 100%;
-    flex-flow: column;
-    margin-left: auto;
-    top: 20px;
-    left: 20px;
+    padding-right: 1rem;
   }
 }
 
