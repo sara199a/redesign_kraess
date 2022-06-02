@@ -15,24 +15,28 @@
   </head>
   <body>
     <header>
-      <nav class="menu">
+      <nav class="navbar">
         <div class="logo">
           <a href="forside.html"> <img src="img/logo5.png" alt="Kræss' logo" /></a>
         </div>
 
-        <ul>
+        <ul class="nav_list" id="navi-list">
           <li><a href="produkt.html">SHOP</a></li>
-          <li><a href="desingere.html">DESIGNERE</a></li>
+          <li><a href="desingere.html">DESINGERE</a></li>
           <li><a href="omos.html">OM OS</a></li>
         </ul>
+
         <div class="icons">
-          <a href="#">
-            <img src="/icons/hjerte.svg" width="32" height="32" alt="like ikon" />
-            <img src="/icons/kurv.svg" width="32" height="32" alt="like ikon" />
-            <img src="/icons/search.svg" width="32" height="32" alt="like ikon" />
-          </a>
+          <a href="#"><img src="icons/search.svg" width="32" height="32" alt="Likede produkter" /> </a>
+          <a href="#"><img src="icons/hjerte.svg" width="32" height="32" alt="Likede produkter" /> </a>
+          <a href="#"><img src="icons/kurv.svg" width="32" height="32" alt="Likede produkter" /> </a>
         </div>
-        <button class="toggle-btn"><img width="30" height="30" src="img/menu.png" alt="Menu" /></button>
+
+        <div class="menu" id="toggle-button">
+          <div class="menu_burger"></div>
+          <div class="menu_burger"></div>
+          <div class="menu_burger"></div>
+        </div>
       </nav>
     </header>
 

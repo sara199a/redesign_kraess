@@ -20,34 +20,35 @@
     <link rel="icon" type="image/svg+xml" href="/img/favicon3.png" />
   </head>
   <body>
-    <header class="banner">
-      <div class="logo">
-        <a href="forside.html"> <img src="img/logo5.png" alt="logo" /></a>
-      </div>
-      <nav class="menu">
-        <button class="toggle-btn">Menu</button>
-        <ul>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="forside.html"> <img src="img/logo5.png" alt="Kræss' logo" /></a>
+        </div>
+
+        <ul class="nav_list" id="navi-list">
           <li><a href="produkt.html">SHOP</a></li>
-          <li><a href="desingere.html">DESIGNERE</a></li>
+          <li><a href="desingere.html">DESINGERE</a></li>
           <li><a href="omos.html">OM OS</a></li>
         </ul>
-        <ul class="icon_container">
-          <li>
-            <img src="/icons/hjerte.svg" alt="hjerte" />
-          </li>
-          <li>
-            <img src="/icons/kurv.svg" alt="kurv" />
-          </li>
-          <li>
-            <img src="/icons/search.svg" alt="search" />
-          </li>
-        </ul>
+
+        <div class="icons">
+          <a href="#"><img src="icons/search.svg" width="32" height="32" alt="Likede produkter" /> </a>
+          <a href="#"><img src="icons/hjerte.svg" width="32" height="32" alt="Likede produkter" /> </a>
+          <a href="#"><img src="icons/kurv.svg" width="32" height="32" alt="Likede produkter" /> </a>
+        </div>
+
+        <div class="menu" id="toggle-button">
+          <div class="menu_burger"></div>
+          <div class="menu_burger"></div>
+          <div class="menu_burger"></div>
+        </div>
       </nav>
     </header>
 
     <main>
       <div class="video_forside">
-        <video  autoplay muted loop>
+        <video autoplay muted loop>
           <source src="http://dnygaard.dk/kea/05_indhold/kraess_kort2.mp4" />
         </video>
         <div class="butik_billede">
